@@ -1,0 +1,21 @@
+[project]
+name = "passo-livre-visao"
+version = "1.0.0"
+description = "Detecção de obstáculos de acessibilidade em calçadas (FIAP Global Solution 2026.2, Computer Vision)"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 150
+target-version = "py311"
+src = ["src"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "RUF"]
+ignore = ["RUF001", "RUF002", "RUF003"]  # acentos em strings/comentários em português
+
+[tool.ruff.lint.per-file-ignores]
+"docs/*" = ["E501"]  # gerador do relatório: linhas de texto corrido

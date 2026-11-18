@@ -1,0 +1,72 @@
+{
+ "modelo": "passo_livre.pt",
+ "arquitetura": "YOLO11n (Ultralytics), ajuste fino a partir de pesos pré-treinados no COCO",
+ "tamanho_da_imagem": 416,
+ "conjunto": "teste",
+ "imagens_de_teste": 174,
+ "geral": {
+  "precisao": 0.8148,
+  "revocacao": 0.5702,
+  "map50": 0.6737,
+  "map50_95": 0.4893
+ },
+ "por_classe": {
+  "veiculo": {
+   "precisao": 0.9111,
+   "revocacao": 0.5748,
+   "map50": 0.675,
+   "map50_95": 0.5091
+  },
+  "moto": {
+   "precisao": 0.8978,
+   "revocacao": 0.5352,
+   "map50": 0.7461,
+   "map50_95": 0.5433
+  },
+  "bicicleta": {
+   "precisao": 0.8256,
+   "revocacao": 0.5333,
+   "map50": 0.7016,
+   "map50_95": 0.5328
+  },
+  "lixeira_entulho": {
+   "precisao": 0.9148,
+   "revocacao": 0.8235,
+   "map50": 0.8492,
+   "map50_95": 0.7706
+  },
+  "poste_placa": {
+   "precisao": 0.7512,
+   "revocacao": 0.3108,
+   "map50": 0.3858,
+   "map50_95": 0.3078
+  },
+  "escada_degrau": {
+   "precisao": 0.5688,
+   "revocacao": 0.4135,
+   "map50": 0.4977,
+   "map50_95": 0.2622
+  },
+  "cadeira_de_rodas": {
+   "precisao": 0.8343,
+   "revocacao": 0.8,
+   "map50": 0.8606,
+   "map50_95": 0.4995
+  }
+ },
+ "imagens_de_teste_por_classe": {
+  "veiculo": 46,
+  "moto": 44,
+  "bicicleta": 34,
+  "lixeira_entulho": 11,
+  "poste_placa": 37,
+  "escada_degrau": 12,
+  "cadeira_de_rodas": 14
+ },
+ "velocidade_no_processador": {
+  "ms_por_quadro": 25.9,
+  "quadros_por_segundo": 38.7,
+  "quadros_medidos": 40,
+  "quadros_por_segundo_na_aplicacao": 29.5
+ }
+}

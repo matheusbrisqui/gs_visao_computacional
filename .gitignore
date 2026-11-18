@@ -1,0 +1,30 @@
+# Segredos: nunca vão para o repositório
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Arquivos pesados: imagens de treino, pesos intermediários e resultados brutos do treino.
+# O modelo final treinado fica em modelo/ e vai para o repositório.
+dados/
+.dados_local
+*.pt
+!modelo/*.pt
+*.onnx
+!modelo/*.onnx
+
+# Saídas de execução (alertas e capturas geradas ao rodar o detector)
+saida/
+
+# Sistema e editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

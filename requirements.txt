@@ -1,0 +1,9 @@
+# Detecção e treino (traz junto PyTorch, OpenCV, NumPy, Pillow e Matplotlib)
+ultralytics>=8.3
+
+# Testes e qualidade
+pytest>=8.0
+ruff>=0.5
+
+# Relatório em PDF (pasta docs/)
+reportlab>=4.0

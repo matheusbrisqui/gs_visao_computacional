@@ -1,0 +1,10 @@
+{
+  "_como_usar": "Preencha este arquivo e rode: python docs/gerar_relatorio.py. O comando refaz o PDF e atualiza o README. Linhas de integrante vazias sao ignoradas.",
+  "integrantes": [
+    { "nome": "Gustavo Brisqui Martinez", "rm": "97969" },
+    { "nome": "Guilherme Rezende Bezerra", "rm": "98508" },
+    { "nome": "Matheus Brisqui Martinez", "rm": "97969" }
+  ],
+  "repositorio": "https://github.com/matheusbrisqui/gs_visao_computacional",
+  "video": ""
+}

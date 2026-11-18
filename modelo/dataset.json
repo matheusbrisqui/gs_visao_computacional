@@ -1,0 +1,167 @@
+{
+ "fonte": "Open Images V7 (subconjuntos de validação e teste), https://storage.googleapis.com/openimages/web/index.html",
+ "licenca": "anotações CC BY 4.0; imagens CC BY 2.0 (autores em ATRIBUICAO.csv)",
+ "lado_maximo_px": 640,
+ "maximo_por_classe": 400,
+ "imagens": 1708,
+ "falhas_de_download": 0,
+ "fotos_do_grupo": 0,
+ "por_particao": {
+  "train": 1323,
+  "val": 211,
+  "test": 174
+ },
+ "amostras_de_treino_por_epoca": 1766,
+ "por_classe": {
+  "veiculo": {
+   "imagens": 400,
+   "caixas": 919
+  },
+  "moto": {
+   "imagens": 400,
+   "caixas": 606
+  },
+  "bicicleta": {
+   "imagens": 400,
+   "caixas": 627
+  },
+  "lixeira_entulho": {
+   "imagens": 90,
+   "caixas": 136
+  },
+  "poste_placa": {
+   "imagens": 331,
+   "caixas": 686
+  },
+  "escada_degrau": {
+   "imagens": 151,
+   "caixas": 177
+  },
+  "cadeira_de_rodas": {
+   "imagens": 153,
+   "caixas": 408
+  }
+ },
+ "por_classe_e_particao": {
+  "train": {
+   "veiculo": {
+    "imagens": 298,
+    "caixas": 696
+   },
+   "moto": {
+    "imagens": 309,
+    "caixas": 456
+   },
+   "bicicleta": {
+    "imagens": 323,
+    "caixas": 520
+   },
+   "lixeira_entulho": {
+    "imagens": 68,
+    "caixas": 101
+   },
+   "poste_placa": {
+    "imagens": 247,
+    "caixas": 505
+   },
+   "escada_degrau": {
+    "imagens": 118,
+    "caixas": 137
+   },
+   "cadeira_de_rodas": {
+    "imagens": 121,
+    "caixas": 322
+   }
+  },
+  "val": {
+   "veiculo": {
+    "imagens": 56,
+    "caixas": 116
+   },
+   "moto": {
+    "imagens": 47,
+    "caixas": 79
+   },
+   "bicicleta": {
+    "imagens": 43,
+    "caixas": 62
+   },
+   "lixeira_entulho": {
+    "imagens": 11,
+    "caixas": 18
+   },
+   "poste_placa": {
+    "imagens": 47,
+    "caixas": 113
+   },
+   "escada_degrau": {
+    "imagens": 21,
+    "caixas": 24
+   },
+   "cadeira_de_rodas": {
+    "imagens": 18,
+    "caixas": 46
+   }
+  },
+  "test": {
+   "veiculo": {
+    "imagens": 46,
+    "caixas": 107
+   },
+   "moto": {
+    "imagens": 44,
+    "caixas": 71
+   },
+   "bicicleta": {
+    "imagens": 34,
+    "caixas": 45
+   },
+   "lixeira_entulho": {
+    "imagens": 11,
+    "caixas": 17
+   },
+   "poste_placa": {
+    "imagens": 37,
+    "caixas": 68
+   },
+   "escada_degrau": {
+    "imagens": 12,
+    "caixas": 16
+   },
+   "cadeira_de_rodas": {
+    "imagens": 14,
+    "caixas": 40
+   }
+  }
+ },
+ "classes": {
+  "veiculo": [
+   "Car",
+   "Van",
+   "Taxi",
+   "Truck"
+  ],
+  "moto": [
+   "Motorcycle"
+  ],
+  "bicicleta": [
+   "Bicycle"
+  ],
+  "lixeira_entulho": [
+   "Waste container"
+  ],
+  "poste_placa": [
+   "Street light",
+   "Traffic sign",
+   "Stop sign",
+   "Parking meter",
+   "Fire hydrant"
+  ],
+  "escada_degrau": [
+   "Stairs"
+  ],
+  "cadeira_de_rodas": [
+   "Wheelchair"
+  ]
+ }
+}

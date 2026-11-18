@@ -1,0 +1,60 @@
+[
+ {
+  "arquivo": "exemplo_veiculo.jpg",
+  "imagem": "8ec3abe6a52df53b",
+  "tipo": "acerto",
+  "classe": "veiculo"
+ },
+ {
+  "arquivo": "exemplo_moto.jpg",
+  "imagem": "2bd6206114824f94",
+  "tipo": "acerto",
+  "classe": "moto"
+ },
+ {
+  "arquivo": "exemplo_bicicleta.jpg",
+  "imagem": "08ba24120b512b92",
+  "tipo": "acerto",
+  "classe": "bicicleta"
+ },
+ {
+  "arquivo": "exemplo_lixeira_entulho.jpg",
+  "imagem": "fe5678947f3923ea",
+  "tipo": "acerto",
+  "classe": "lixeira_entulho"
+ },
+ {
+  "arquivo": "exemplo_poste_placa.jpg",
+  "imagem": "359cf178d5d71e1e",
+  "tipo": "acerto",
+  "classe": "poste_placa"
+ },
+ {
+  "arquivo": "exemplo_escada_degrau.jpg",
+  "imagem": "86a416588475bae5",
+  "tipo": "acerto",
+  "classe": "escada_degrau"
+ },
+ {
+  "arquivo": "exemplo_cadeira_de_rodas.jpg",
+  "imagem": "4f7d6239c0e5cf67",
+  "tipo": "acerto",
+  "classe": "cadeira_de_rodas"
+ },
+ {
+  "arquivo": "exemplo_falha.jpg",
+  "imagem": "55e3ffeb097cb19a",
+  "tipo": "falha",
+  "nao_encontradas": [
+   "poste_placa"
+  ]
+ },
+ {
+  "arquivo": "tempo_real.jpg",
+  "imagem": "08ba24120b512b92",
+  "tipo": "tempo_real",
+  "mensagem": "Bicicleta bloqueando a passagem",
+  "alertas_na_sequencia": 15,
+  "fotos_na_sequencia": 20
+ }
+]
