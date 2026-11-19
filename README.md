@@ -14,7 +14,7 @@ Detecção de objetos em tempo real, com treinamento customizado de YOLO, para a
 | Guilherme Rezende Bezerra | 98508 |
 | Matheus Brisqui Martinez | 97969 |
 
-- **Vídeo de demonstração:** _preencher em docs/equipe.json_
+- **Vídeo de demonstração:** https://youtu.be/qj1O-sZHtjc
 - **Repositório:** https://github.com/matheusbrisqui/gs_visao_computacional
 <!-- equipe:fim -->
 
